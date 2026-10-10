@@ -1,0 +1,1521 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   DocuSign Integration for GoHighLevel | LCBridge
+  </title>
+  <meta content="Connect DocuSign with GoHighLevel. Send prefilled agreements, automate signature follow-ups, and sync client answers back. Start your 14-day free trial." name="description"/>
+  <link href="https://lcbridge.app/docusign-integration/" rel="canonical"/>
+  <meta content="index,follow" name="robots"/>
+  <meta content="#4d3fe7" name="theme-color"/>
+  <link href="/assets/docusign-favicon.svg" rel="icon" type="image/svg+xml"/>
+  <meta content="website" property="og:type"/>
+  <meta content="https://lcbridge.app/docusign-integration/" property="og:url"/>
+  <meta content="LCBridge" property="og:site_name"/>
+  <meta content="DocuSign in HighLevel. Without the busywork." property="og:title"/>
+  <meta content="Connect DocuSign with GoHighLevel. Send prefilled agreements, automate signature follow-ups, and sync client answers back. Start your 14-day free trial." property="og:description"/>
+  <meta content="https://lcbridge.app/assets/video/lcbridge-docusign-highlevel-poster.jpg" property="og:image"/>
+  <meta content="1280" property="og:image:width"/>
+  <meta content="720" property="og:image:height"/>
+  <meta content="DocuSign connected to HighLevel by LCBridge" property="og:image:alt"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="DocuSign in HighLevel. Without the busywork." name="twitter:title"/>
+  <meta content="Connect DocuSign with GoHighLevel. Send prefilled agreements, automate signature follow-ups, and sync client answers back. Start your 14-day free trial." name="twitter:description"/>
+  <meta content="https://lcbridge.app/assets/video/lcbridge-docusign-highlevel-poster.jpg" name="twitter:image"/>
+  <link as="font" crossorigin="" href="/assets/fonts/inter-latin.woff2" rel="preload" type="font/woff2"/>
+  <link href="/assets/docusign-landing.css" rel="stylesheet"/>
+  <script defer="" src="/assets/docusign-landing.js">
+  </script>
+  <script type="application/ld+json">
+   {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://lcbridge.app/#organization",
+      "name": "LCBridge",
+      "legalName": "GoCSM Innovations Private Limited",
+      "url": "https://lcbridge.app/",
+      "logo": "https://lcbridge.app/assets/lcbridge-lockup-black.png"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://lcbridge.app/docusign-integration/#webpage",
+      "url": "https://lcbridge.app/docusign-integration/",
+      "name": "DocuSign Integration for GoHighLevel | LCBridge",
+      "description": "Connect DocuSign to HighLevel to send prefilled agreements, automate configured follow-up workflows, and sync completed client answers to mapped contact fields.",
+      "mainEntity": {
+        "@id": "https://lcbridge.app/docusign-integration/#app"
+      },
+      "video": {
+        "@id": "https://lcbridge.app/docusign-integration/#video"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://lcbridge.app/docusign-integration/#app",
+      "name": "DocuSign Integration by LCBridge",
+      "url": "https://lcbridge.app/docusign-integration/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web: HighLevel / GoHighLevel",
+      "softwareRequirements": "HighLevel account and an existing DocuSign account",
+      "description": "Connect DocuSign to HighLevel to send prefilled agreements, automate configured follow-up workflows, and sync completed client answers to mapped contact fields.",
+      "featureList": [
+        "CRM data prefill",
+        "Client-entered data write-back after agreement completion",
+        "Pipeline-triggered sending",
+        "Configured follow-up workflows",
+        "Agreement activity and signed PDF access from the contact"
+      ],
+      "publisher": {
+        "@id": "https://lcbridge.app/#organization"
+      },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": "29",
+        "highPrice": "497",
+        "offerCount": 3,
+        "url": "https://lcbridge.app/docusign-integration/#pricing",
+        "description": "Monthly plans: Starter $29 per active sub-account; Agency $249 for up to 250 sub-accounts; Scale $497 for unlimited sub-accounts. Annual billing available. 14-day free trial."
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lcbridge.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "DocuSign Integration",
+          "item": "https://lcbridge.app/docusign-integration/"
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://lcbridge.app/docusign-integration/#video",
+      "name": "DocuSign in HighLevel: Send, Sync & Automate | LCBridge",
+      "description": "See how LCBridge connects DocuSign with HighLevel: prefill agreements, sync client answers to mapped contact fields after signing, automate follow-up, and track agreements on the contact.",
+      "thumbnailUrl": [
+        "https://lcbridge.app/assets/video/lcbridge-docusign-highlevel-poster.jpg"
+      ],
+      "uploadDate": "2026-10-10T00:00:00+05:30",
+      "duration": "PT1M20S",
+      "contentUrl": "https://lcbridge.app/assets/video/lcbridge-docusign-highlevel.mp4",
+      "publisher": {
+        "@id": "https://lcbridge.app/#organization"
+      }
+    }
+  ]
+}
+  </script>
+ </head>
+ <body>
+  <a class="skip" href="#main">
+   Skip to content
+  </a>
+  <header class="nav">
+   <div class="wrap nav-inner">
+    <a aria-label="LCBridge home" class="brand" href="/">
+     <img alt="LCBridge" height="52" src="/assets/lcbridge-lockup-black.svg" width="156"/>
+    </a>
+    <button aria-controls="navigation" aria-expanded="false" aria-label="Open navigation" class="menu" type="button">
+     <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+      <path d="M4 6h16M4 12h16M4 18h16">
+      </path>
+     </svg>
+    </button>
+    <nav aria-label="Main navigation" class="nav-links" id="navigation">
+     <a href="#how-it-works">
+      How it works
+     </a>
+     <a href="#pricing">
+      Pricing
+     </a>
+     <a href="#faq">
+      FAQ
+     </a>
+     <a href="/docusign-integration/docs/">
+      Docs
+     </a>
+    </nav>
+    <a class="button" data-trial-cta="navigation" href="#apply">
+     Start free trial
+     <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+      <path d="M4 12h16m-6-6 6 6-6 6">
+      </path>
+     </svg>
+    </a>
+   </div>
+  </header>
+  <main id="main">
+   <section class="hero">
+    <div class="wrap">
+     <nav aria-label="Breadcrumb" class="crumb">
+      <a href="/">
+       Home
+      </a>
+      <span aria-hidden="true">
+       /
+      </span>
+      <span>
+       DocuSign Integration
+      </span>
+     </nav>
+     <div class="hero-grid">
+      <div>
+       <span class="eyebrow">
+        DocuSign integration for HighLevel
+       </span>
+       <h1>
+        DocuSign in HighLevel.
+        <span>
+         Without the busywork.
+        </span>
+       </h1>
+       <p class="lede">
+        Send agreements with CRM data already filled in. Automate your follow-ups. Bring client-entered details and signed PDFs back to the right contact.
+       </p>
+       <div class="hero-actions">
+        <a class="button" data-trial-cta="hero" href="#apply">
+         Start your 14-day free trial
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="M4 12h16m-6-6 6 6-6 6">
+          </path>
+         </svg>
+        </a>
+        <a class="text-link" data-play-demo="" href="#demo">
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m8 5 11 7-11 7Z">
+          </path>
+         </svg>
+         Watch the 80-second demo
+        </a>
+       </div>
+       <p class="hero-note">
+        <strong>
+         No card to start.
+        </strong>
+        Request assisted setup for your HighLevel account.
+       </p>
+      </div>
+      <figure class="demo" id="demo">
+       <div class="demo-header">
+        <span>
+         See the entire agreement flow
+        </span>
+        <span>
+         DocuSign × HighLevel
+        </span>
+       </div>
+       <div class="demo-shell">
+        <button aria-label="Play the 80-second DocuSign and HighLevel demo" class="demo-cover" data-play-demo="" type="button">
+         <img alt="DocuSign and HighLevel connected by LCBridge: send, sync, automate" class="demo-poster" fetchpriority="high" height="720" sizes="(max-width: 800px) calc(100vw - 40px), (max-width: 1180px) 46vw, 550px" src="/assets/video/lcbridge-docusign-highlevel-poster.webp" srcset="/assets/video/lcbridge-docusign-highlevel-poster-640.webp 640w, /assets/video/lcbridge-docusign-highlevel-poster.webp 1280w" width="1280"/>
+         <span class="demo-play">
+          <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+           <path d="m8 5 11 7-11 7Z">
+           </path>
+          </svg>
+         </span>
+        </button>
+        <video aria-label="DocuSign Integration by LCBridge product demo" controls="" data-poster="/assets/video/lcbridge-docusign-highlevel-poster.webp" data-src="/assets/video/lcbridge-docusign-highlevel.mp4" height="1080" hidden="" id="product-video" playsinline="" preload="none" width="1920">
+         <track data-src="/assets/video/lcbridge-docusign-highlevel.vtt" default="" kind="captions" label="English" srclang="en"/>
+         <p>
+          <a href="/assets/video/lcbridge-docusign-highlevel.mp4">
+           Watch the demo video
+          </a>
+          .
+         </p>
+        </video>
+       </div>
+       <figcaption class="demo-under">
+        <span>
+         80 seconds · English captions available
+        </span>
+        <a href="#transcript">
+         Read the transcript
+        </a>
+       </figcaption>
+       <noscript>
+        <p class="small">
+         <a href="/assets/video/lcbridge-docusign-highlevel.mp4">
+          Watch the 80-second demo
+         </a>
+         ·
+         <a href="/assets/video/lcbridge-docusign-highlevel.vtt">
+          Captions
+         </a>
+        </p>
+       </noscript>
+      </figure>
+     </div>
+    </div>
+   </section>
+   <div class="summary-band">
+    <div class="wrap summary-items">
+     <span>
+      <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+       <path d="m5 12 4 4L19 6">
+       </path>
+      </svg>
+      14-day free trial
+     </span>
+     <span>
+      <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+       <path d="m5 12 4 4L19 6">
+       </path>
+      </svg>
+      Keep your existing DocuSign account
+     </span>
+     <span>
+      <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+       <path d="m5 12 4 4L19 6">
+       </path>
+      </svg>
+      Work inside HighLevel
+     </span>
+    </div>
+   </div>
+   <section aria-labelledby="problems-title" class="section">
+    <div class="wrap">
+     <div class="section-head">
+      <span class="eyebrow">
+       For teams using both tools separately
+      </span>
+      <h2 id="problems-title">
+       The agreement is simple.
+       <br/>
+       The work around it isn’t.
+      </h2>
+     </div>
+     <div class="pains">
+      <article class="pain">
+       <span class="pain-number">
+        01 · BEFORE YOU SEND
+       </span>
+       <h3>
+        Ready to send. Still copying details.
+       </h3>
+       <p>
+        Your client’s details are already in HighLevel. Yet you’re switching tabs to paste them into DocuSign, one field at a time.
+       </p>
+      </article>
+      <article class="pain">
+       <span class="pain-number">
+        02 · AFTER YOU SEND
+       </span>
+       <h3>
+        Sent it. Now what?
+       </h3>
+       <p>
+        Your client hasn’t replied. Unopened? Opened but unsigned? Declined? Checking and following up are still on you.
+       </p>
+      </article>
+      <article class="pain">
+       <span class="pain-number">
+        03 · AFTER THEY SIGN
+       </span>
+       <h3>
+        Signed. But the answers are over there.
+       </h3>
+       <p>
+        Your client entered the details you needed in DocuSign. Now you’re copying those answers back into HighLevel.
+       </p>
+      </article>
+     </div>
+     <p class="bridge-line">
+      Bring DocuSign into the CRM you already use.
+     </p>
+    </div>
+   </section>
+   <section aria-labelledby="send-title" class="proof-section" id="how-it-works">
+    <div class="wrap">
+     <div class="proof-head">
+      <div>
+       <span class="proof-label">
+        <b>
+         01
+        </b>
+        Send and sync
+       </span>
+       <h2 id="send-title">
+        Your data goes out.
+        <br/>
+        Their answers come back.
+       </h2>
+      </div>
+      <p class="lede">
+       Use mapped HighLevel data to prefill agreements. After signing completes, client-entered details return to their mapped contact fields.
+      </p>
+     </div>
+     <div class="proof-stage data-proof" id="prefill-proof">
+      <div class="stage-heading">
+       <h3>
+        From the contact to the agreement
+       </h3>
+       <span class="tag">
+        CRM → DocuSign
+       </span>
+      </div>
+      <div class="stage-grid">
+       <div class="glass">
+        <div class="glass-top">
+         <span class="glass-title">
+          <span class="app-dot">
+           HL
+          </span>
+          HighLevel contact
+         </span>
+         <span class="status">
+          <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+           <path d="m5 12 4 4L19 6">
+           </path>
+          </svg>
+          Source
+         </span>
+        </div>
+        <div class="field">
+         <span class="field-label">
+          Client name
+         </span>
+         <span class="field-value">
+          John Henderson
+         </span>
+        </div>
+        <div class="field">
+         <span class="field-label">
+          Client email
+         </span>
+         <span class="field-value">
+          john@example.com
+         </span>
+        </div>
+        <div class="field">
+         <span class="field-label">
+          Property address
+         </span>
+         <span class="field-value">
+          412 Oak Avenue
+         </span>
+        </div>
+        <div class="field-tail">
+         Already saved in your CRM
+        </div>
+       </div>
+       <div class="transfer">
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="M4 12h16m-6-6 6 6-6 6">
+         </path>
+        </svg>
+        <span>
+         Prefill
+        </span>
+       </div>
+       <div class="glass destination">
+        <div class="glass-top">
+         <img alt="DocuSign" class="docusign-wordmark" height="27" loading="lazy" src="/assets/docusign-logo.svg" width="92"/>
+         <span class="status">
+          <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+           <path d="m5 12 4 4L19 6">
+           </path>
+          </svg>
+          Prefilled
+         </span>
+        </div>
+        <div class="field">
+         <span class="field-label">
+          Buyer full name
+         </span>
+         <span class="field-value">
+          John Henderson
+         </span>
+        </div>
+        <div class="field">
+         <span class="field-label">
+          Buyer email
+         </span>
+         <span class="field-value">
+          john@example.com
+         </span>
+        </div>
+        <div class="field">
+         <span class="field-label">
+          Property address
+         </span>
+         <span class="field-value">
+          412 Oak Avenue
+         </span>
+        </div>
+        <div class="field-tail">
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         Buyer Representation Agreement · Ready to send
+        </div>
+       </div>
+      </div>
+      <div class="stage-bottom">
+       <p>
+        Choose a mapped template. Send the agreement from HighLevel with the details already in place.
+       </p>
+       <button class="replay" data-replay="prefill-proof" type="button">
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="M4 10a8 8 0 1 1 1 8M4 4v6h6">
+         </path>
+        </svg>
+        Replay data flow
+       </button>
+      </div>
+     </div>
+     <div class="proof-stage return-stage data-proof" id="writeback-proof">
+      <div class="stage-heading">
+       <h3>
+        From the completed agreement to contact custom fields
+       </h3>
+       <span class="tag">
+        DocuSign → CRM
+       </span>
+      </div>
+      <div class="stage-grid">
+       <div class="glass">
+        <div class="glass-top">
+         <img alt="DocuSign" class="docusign-wordmark" height="27" loading="lazy" src="/assets/docusign-logo.svg" width="92"/>
+         <span class="status">
+          <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+           <path d="m5 12 4 4L19 6">
+           </path>
+          </svg>
+          Completed
+         </span>
+        </div>
+        <div class="field">
+         <span class="field-label">
+          Co-buyer full name · entered by client
+         </span>
+         <span class="field-value">
+          Margaret Henderson
+         </span>
+        </div>
+        <div class="field">
+         <span class="field-label">
+          Co-buyer email · entered by client
+         </span>
+         <span class="field-value">
+          margaret@example.com
+         </span>
+        </div>
+        <div class="field-tail">
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         Signing complete · All required signers finished
+        </div>
+       </div>
+       <div class="transfer">
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="M4 12h16m-6-6 6 6-6 6">
+         </path>
+        </svg>
+        <span>
+         Sync back
+        </span>
+       </div>
+       <div class="glass destination">
+        <div class="glass-top">
+         <span class="glass-title">
+          <span class="app-dot">
+           HL
+          </span>
+          HighLevel custom fields
+         </span>
+         <span class="status">
+          <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+           <path d="m5 12 4 4L19 6">
+           </path>
+          </svg>
+          Saved
+         </span>
+        </div>
+        <div class="contact-mini">
+         <span class="avatar">
+          JH
+         </span>
+         <div>
+          <strong>
+           John Henderson
+          </strong>
+          <span>
+           john@example.com · Primary contact unchanged
+          </span>
+         </div>
+        </div>
+        <div class="field">
+         <span class="field-label">
+          Co-buyer name · mapped custom field
+         </span>
+         <span class="field-value">
+          Margaret Henderson
+         </span>
+        </div>
+        <div class="field">
+         <span class="field-label">
+          Co-buyer email · mapped custom field
+         </span>
+         <span class="field-value">
+          margaret@example.com
+         </span>
+        </div>
+        <div class="field-tail">
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         Saved to John’s contact record
+        </div>
+       </div>
+      </div>
+      <div class="stage-bottom">
+       <p>
+        The client provides the missing details. Your configured mappings put those values in the right CRM fields after the agreement completes.
+       </p>
+       <button class="replay" data-replay="writeback-proof" type="button">
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="M4 10a8 8 0 1 1 1 8M4 4v6h6">
+         </path>
+        </svg>
+        Replay data flow
+       </button>
+      </div>
+     </div>
+     <p class="illustration-caption">
+      Illustrative data and product components. Field mappings are configured before use.
+     </p>
+     <div class="proof-cta">
+      <a class="button" data-trial-cta="send-sync" href="#apply">
+       Try it with your own agreements
+       <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+        <path d="M4 12h16m-6-6 6 6-6 6">
+        </path>
+       </svg>
+      </a>
+      <p>
+       Keep your DocuSign templates. Connect the flow.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section aria-labelledby="automate-title" class="workflow-section" id="automate">
+    <div class="wrap">
+     <div class="proof-head">
+      <div>
+       <span class="proof-label">
+        <b>
+         02
+        </b>
+        Automate the workflow
+       </span>
+       <h2 id="automate-title">
+        Give every agreement
+        <br/>
+        a next step.
+       </h2>
+      </div>
+      <p class="lede">
+       Send at the right pipeline stage. Follow up when an agreement stalls. Move the deal forward when signing is complete.
+      </p>
+     </div>
+     <div class="workflow" id="workflow-proof">
+      <div class="workflow-intro">
+       <h3>
+        Connected HighLevel workflows
+       </h3>
+       <span class="tag">
+        Trigger → action → result
+       </span>
+      </div>
+      <div class="flow-row">
+       <div class="flow-node">
+        <small>
+         WHEN
+        </small>
+        <strong>
+         Deal reaches “Agreement ready”
+        </strong>
+       </div>
+       <span class="flow-arrow">
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="M4 12h16m-6-6 6 6-6 6">
+         </path>
+        </svg>
+       </span>
+       <div class="flow-node">
+        <small>
+         DO THIS
+        </small>
+        <strong>
+         Send the mapped DocuSign template
+        </strong>
+       </div>
+       <span class="flow-arrow">
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="M4 12h16m-6-6 6 6-6 6">
+         </path>
+        </svg>
+       </span>
+       <div class="flow-node result">
+        <small>
+         VISIBLE RESULT
+        </small>
+        <strong>
+         Agreement sent
+        </strong>
+       </div>
+      </div>
+      <div class="flow-row">
+       <div class="flow-node">
+        <small>
+         WHEN
+        </small>
+        <strong>
+         Agreement stalls past your configured threshold
+        </strong>
+       </div>
+       <span class="flow-arrow">
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="M4 12h16m-6-6 6 6-6 6">
+         </path>
+        </svg>
+       </span>
+       <div class="flow-node">
+        <small>
+         DO THIS
+        </small>
+        <strong>
+         Run the enabled follow-up workflow
+        </strong>
+       </div>
+       <span class="flow-arrow">
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="M4 12h16m-6-6 6 6-6 6">
+         </path>
+        </svg>
+       </span>
+       <div class="flow-node result">
+        <small>
+         VISIBLE RESULT
+        </small>
+        <strong>
+         Reminder sent
+        </strong>
+       </div>
+      </div>
+      <div class="flow-row">
+       <div class="flow-node">
+        <small>
+         WHEN
+        </small>
+        <strong>
+         Agreement completed by all required signers
+        </strong>
+       </div>
+       <span class="flow-arrow">
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="M4 12h16m-6-6 6 6-6 6">
+         </path>
+        </svg>
+       </span>
+       <div class="flow-node">
+        <small>
+         DO THIS
+        </small>
+        <strong>
+         Move the opportunity to your chosen stage
+        </strong>
+       </div>
+       <span class="flow-arrow">
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="M4 12h16m-6-6 6 6-6 6">
+         </path>
+        </svg>
+       </span>
+       <div class="flow-node result">
+        <small>
+         VISIBLE RESULT
+        </small>
+        <strong>
+         Deal moves to “Won”
+        </strong>
+       </div>
+      </div>
+      <div class="flow-footer">
+       <p>
+        Activate and configure the workflows you need. A declined agreement can notify the owner and stop further signature chasing. The stages and reminders above are examples.
+       </p>
+       <button class="replay" data-replay="workflow-proof" type="button">
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="M4 10a8 8 0 1 1 1 8M4 4v6h6">
+         </path>
+        </svg>
+        Replay workflow
+       </button>
+      </div>
+     </div>
+     <p class="illustration-caption">
+      Stalled can mean not opened or viewed but still unsigned. Follow-up timing is configured for your process.
+     </p>
+    </div>
+   </section>
+   <section aria-labelledby="track-title" class="proof-section" id="track-store">
+    <div class="wrap">
+     <div class="proof-head">
+      <div>
+       <span class="proof-label">
+        <b>
+         03
+        </b>
+        Track and store
+       </span>
+       <h2 id="track-title">
+        The status. The signed PDF.
+        <br/>
+        The same contact.
+       </h2>
+      </div>
+      <p class="lede">
+       See DocuSign activity from the contact record and open the completed agreement from there. No separate search for the latest status.
+      </p>
+     </div>
+     <div class="record-stage" id="record-proof">
+      <aside class="record-side">
+       <span class="avatar">
+        JH
+       </span>
+       <div>
+        <strong>
+         John Henderson
+        </strong>
+        <p>
+         john@example.com
+        </p>
+       </div>
+       <span class="status">
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="m5 12 4 4L19 6">
+         </path>
+        </svg>
+        Completed
+       </span>
+       <ul class="record-tabs">
+        <li>
+         Contact details
+        </li>
+        <li class="active">
+         DocuSign agreements
+        </li>
+        <li>
+         Custom fields
+        </li>
+       </ul>
+      </aside>
+      <div class="record-main">
+       <div class="record-heading">
+        <strong>
+         Buyer Representation Agreement
+        </strong>
+        <span class="tag">
+         Agreement activity
+        </span>
+       </div>
+       <ol class="activity">
+        <li>
+         <strong>
+          Sent
+         </strong>
+         <span>
+          Request delivered
+         </span>
+        </li>
+        <li>
+         <strong>
+          Viewed
+         </strong>
+         <span>
+          Client opened it
+         </span>
+        </li>
+        <li>
+         <strong>
+          Completed
+         </strong>
+         <span>
+          Required signing finished
+         </span>
+        </li>
+       </ol>
+       <div class="file">
+        <span class="pdf">
+         PDF
+        </span>
+        <div>
+         <strong>
+          Buyer Representation Agreement.signed.pdf
+         </strong>
+         <small>
+          Available from this contact record
+         </small>
+        </div>
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="m5 12 4 4L19 6">
+         </path>
+        </svg>
+       </div>
+       <p class="record-note">
+        Signed PDF access is linked to the agreement. Contact-file attachment depends on your configured storage settings and permissions.
+       </p>
+      </div>
+     </div>
+     <p class="illustration-caption">
+      Illustrative contact-record view. Agreement activity and document access stay connected to the same client.
+     </p>
+    </div>
+   </section>
+   <section class="section soft" id="getting-started">
+    <div class="wrap">
+     <div class="section-head">
+      <span class="eyebrow">
+       Getting started
+      </span>
+      <h2>
+       Connect the tools.
+       <br/>
+       Make the flow yours.
+      </h2>
+     </div>
+     <div class="setup-grid">
+      <article class="setup-step">
+       <b>
+        01 · REQUEST YOUR TRIAL
+       </b>
+       <h3>
+        Tell us about your account.
+       </h3>
+       <p>
+        Complete the trial form. We reply the same working day and help set up the integration for your HighLevel account.
+       </p>
+      </article>
+      <article class="setup-step">
+       <b>
+        02 · CONNECT AND MAP
+       </b>
+       <h3>
+        Use your DocuSign account.
+       </h3>
+       <p>
+        Connect DocuSign, choose your template, and map the CRM values and client answers to the fields you need.
+       </p>
+      </article>
+      <article class="setup-step">
+       <b>
+        03 · SEND AND AUTOMATE
+       </b>
+       <h3>
+        Run your first agreement.
+       </h3>
+       <p>
+        Send from HighLevel and enable the workflows that fit your pipeline and follow-up process.
+       </p>
+      </article>
+     </div>
+     <p class="setup-note">
+      <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+       <path d="m5 12 4 4L19 6">
+       </path>
+      </svg>
+      Setup help is available.
+      <a href="/docusign-integration/docs/getting-started/">
+       See the getting-started guide
+      </a>
+      <span>
+       ·
+      </span>
+      <a href="/docusign-integration/book-a-call">
+       Book an optional setup call
+      </a>
+     </p>
+    </div>
+   </section>
+   <section class="section" id="pricing">
+    <div class="wrap">
+     <div class="pricing-heading">
+      <div class="section-head">
+       <span class="eyebrow">
+        Pricing
+       </span>
+       <h2>
+        A plan for your business.
+        <br/>
+        Room for your agency.
+       </h2>
+       <p class="lede">
+        Every plan starts with a 14-day free trial.
+       </p>
+      </div>
+      <div aria-label="Billing period" class="billing" role="group">
+       <button aria-pressed="true" data-billing="monthly" type="button">
+        Monthly
+       </button>
+       <button aria-pressed="false" data-billing="annual" type="button">
+        Annual · save
+       </button>
+      </div>
+     </div>
+     <div class="plans">
+      <article class="plan business">
+       <h3>
+        Starter
+       </h3>
+       <p>
+        For a business connecting its own HighLevel account.
+       </p>
+       <div class="price">
+        <span class="amount" data-annual="20.75" data-monthly="29">
+         $29
+        </span>
+        <span>
+         per active sub-account / month
+        </span>
+       </div>
+       <div class="billing-note" data-annual="$249 billed annually per sub-account" data-monthly="Billed monthly per active sub-account">
+        Billed monthly per active sub-account
+       </div>
+       <a class="button" data-plan="starter" data-trial-cta="pricing" href="#apply">
+        Start your 14-day free trial
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="M4 12h16m-6-6 6 6-6 6">
+         </path>
+        </svg>
+       </a>
+       <ul class="features">
+        <li>
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         Pay only for active sub-accounts
+        </li>
+        <li>
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         Prefill agreements &amp; sync mapped answers
+        </li>
+        <li>
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         Configured workflow automation
+        </li>
+        <li>
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         Agreement activity &amp; signed PDF access
+        </li>
+       </ul>
+      </article>
+      <article class="plan">
+       <h3>
+        Agency
+       </h3>
+       <p>
+        For agencies offering the integration to clients.
+       </p>
+       <div class="price">
+        <span class="amount" data-annual="199.20" data-monthly="249">
+         $249
+        </span>
+        <span>
+         / month
+        </span>
+       </div>
+       <div class="billing-note" data-annual="$2,390.40 billed annually" data-monthly="Billed monthly">
+        Billed monthly
+       </div>
+       <a class="button" data-plan="agency" data-trial-cta="pricing" href="#apply">
+        Start your 14-day free trial
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="M4 12h16m-6-6 6 6-6 6">
+         </path>
+        </svg>
+       </a>
+       <ul class="features">
+        <li>
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         Up to 250 sub-accounts
+        </li>
+        <li>
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         Prefill agreements &amp; sync mapped answers
+        </li>
+        <li>
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         Configured workflow automation
+        </li>
+        <li>
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         Agreement activity &amp; signed PDF access
+        </li>
+        <li>
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         White-label integration experience
+        </li>
+       </ul>
+      </article>
+      <article class="plan">
+       <h3>
+        Scale
+       </h3>
+       <p>
+        For agencies with a larger client base.
+       </p>
+       <div class="price">
+        <span class="amount" data-annual="397.60" data-monthly="497">
+         $497
+        </span>
+        <span>
+         / month
+        </span>
+       </div>
+       <div class="billing-note" data-annual="$4,771.20 billed annually" data-monthly="Billed monthly">
+        Billed monthly
+       </div>
+       <a class="button" data-plan="scale" data-trial-cta="pricing" href="#apply">
+        Start your 14-day free trial
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="M4 12h16m-6-6 6 6-6 6">
+         </path>
+        </svg>
+       </a>
+       <ul class="features">
+        <li>
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         Unlimited sub-accounts
+        </li>
+        <li>
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         Prefill agreements &amp; sync mapped answers
+        </li>
+        <li>
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         Configured workflow automation
+        </li>
+        <li>
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         Agreement activity &amp; signed PDF access
+        </li>
+        <li>
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="m5 12 4 4L19 6">
+          </path>
+         </svg>
+         White-label integration experience
+        </li>
+       </ul>
+      </article>
+     </div>
+     <p class="price-foot">
+      <strong>
+       USD. No card to start the trial.
+      </strong>
+      A DocuSign account is required and billed separately. Annual prices show the monthly equivalent; the annual total is charged once per year.
+      <a href="/docusign-integration/pricing">
+       Full pricing details
+      </a>
+      .
+     </p>
+     <noscript>
+      <p class="small">
+       Annual billing: Starter $249 per sub-account per year; Agency $2,390.40 per year; Scale $4,771.20 per year.
+      </p>
+     </noscript>
+    </div>
+   </section>
+   <section class="section soft">
+    <div class="wrap">
+     <div class="trust-grid">
+      <div>
+       <span class="eyebrow">
+        Setup with someone who knows the product
+       </span>
+       <h2>
+        Get help connecting your
+        <br/>
+        actual agreement process.
+       </h2>
+       <p class="lede">
+        Bring your templates, field mappings, and workflow questions. Use the documentation or talk through your setup with the team.
+       </p>
+      </div>
+      <div class="trust-card">
+       <img alt="Arun, founder of LCBridge" height="64" loading="lazy" src="/assets/arun-headshot.jpg" width="64"/>
+       <div>
+        <strong>
+         Arun · Founder of LCBridge
+        </strong>
+        <p>
+         A working conversation about your HighLevel and DocuSign setup.
+        </p>
+        <a class="text-link" href="/docusign-integration/book-a-call">
+         Book an optional call
+         <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+          <path d="M4 12h16m-6-6 6 6-6 6">
+          </path>
+         </svg>
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="agency-note">
+      <div>
+       <h3>
+        Offering this to your agency’s clients?
+       </h3>
+       <p>
+        Agency and Scale plans let you deliver the integration inside your HighLevel environment with branding configured for your agency.
+       </p>
+      </div>
+      <a class="text-link" data-trial-cta="agency" href="#apply">
+       Explore it with a free trial
+       <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+        <path d="M4 12h16m-6-6 6 6-6 6">
+        </path>
+       </svg>
+      </a>
+     </div>
+    </div>
+   </section>
+   <section class="section" id="faq">
+    <div class="wrap faq-grid">
+     <div>
+      <span class="eyebrow">
+       Before you start
+      </span>
+      <h2>
+       A few useful answers.
+      </h2>
+      <p class="lede">
+       Keep the tools you use. Connect the agreement process between them.
+      </p>
+      <p class="faq-more">
+       <a href="/docusign-integration/how-to-integrate">
+        How to connect DocuSign to GoHighLevel
+       </a>
+       <br/>
+       <a href="/docusign-integration/docs/">
+        Browse product documentation
+       </a>
+      </p>
+     </div>
+     <div class="faq">
+      <details>
+       <summary>
+        What does LCBridge connect?
+       </summary>
+       <p>
+        LCBridge connects your DocuSign account to HighLevel, also known as GoHighLevel or GHL. It lets you send mapped agreements, automate configured follow-ups, and see completed agreement data from the contact record.
+       </p>
+      </details>
+      <details>
+       <summary>
+        Do I need my own DocuSign account?
+       </summary>
+       <p>
+        Yes. You need a HighLevel account and your own DocuSign account. LCBridge is the integration; a DocuSign subscription is not included.
+       </p>
+      </details>
+      <details>
+       <summary>
+        Can I send documents prefilled with CRM data?
+       </summary>
+       <p>
+        Yes. Map your HighLevel contact fields to the fields in a DocuSign template. Those mapped CRM values populate the agreement when you send it.
+       </p>
+      </details>
+      <details>
+       <summary>
+        Which client answers sync back, and when?
+       </summary>
+       <p>
+        Configured template field mappings can return client-entered details to supported standard or custom contact fields after the agreement completes. For example, a co-buyer’s name and email can go into the primary contact’s custom fields. An individual signer finishing does not mean a multi-signer agreement is complete.
+        <a href="/docusign-integration/docs/multiple-signers/">
+         Read the multiple-signers guide
+        </a>
+        .
+       </p>
+      </details>
+      <details>
+       <summary>
+        Will agreements and follow-ups send automatically?
+       </summary>
+       <p>
+        They can when you enable and configure the relevant HighLevel workflows. Use a pipeline-stage change to send an agreement, a stalled-agreement event for follow-up, and completed signing to advance the opportunity. Choose the stages, timing, and actions for your process.
+       </p>
+      </details>
+      <details>
+       <summary>
+        Where is the signed PDF stored?
+       </summary>
+       <p>
+        You can access the completed PDF from the agreement on the contact record. Storage can be configured for a saved document link, media storage, or contact-file attachment. Contact-file attachment requires the appropriate settings and permissions.
+       </p>
+      </details>
+      <details>
+       <summary>
+        How is this different from HighLevel Documents &amp; Contracts?
+       </summary>
+       <p>
+        HighLevel has its own Documents &amp; Contracts functionality. LCBridge is for teams that want to keep using DocuSign while connecting it to HighLevel.
+        <a href="/docusign-integration/vs-native-signature">
+         Compare the two approaches
+        </a>
+        .
+       </p>
+      </details>
+      <details>
+       <summary>
+        How does the 14-day trial work?
+       </summary>
+       <p>
+        Complete the trial form below to request assisted setup. We reply the same working day and help connect the integration to your HighLevel account. No card is needed to start. A setup call is available if you want one; requesting a trial does not instantly provision an account.
+       </p>
+      </details>
+      <details>
+       <summary>
+        Can my agency offer it under our own brand?
+       </summary>
+       <p>
+        Agency and Scale plans include a white-label integration experience inside your HighLevel environment. Branding is configured during setup. Customers still use their own DocuSign account and its signing experience.
+       </p>
+      </details>
+      <details>
+       <summary>
+        What does it cost after the trial?
+       </summary>
+       <p>
+        Monthly billing is $29 per active sub-account for Starter, $249 for Agency with up to 250 sub-accounts, or $497 for Scale with unlimited sub-accounts. Annual billing is available at the rates shown above. All prices are in USD; your DocuSign subscription is separate.
+       </p>
+      </details>
+     </div>
+    </div>
+   </section>
+   <section aria-labelledby="trial-title" class="apply-section" id="apply">
+    <div class="wrap apply-grid">
+     <div class="apply-copy">
+      <span class="eyebrow">
+       Your next agreement, with less busywork
+      </span>
+      <h2 id="trial-title">
+       Start your 14-day
+       <br/>
+       free trial today.
+      </h2>
+      <p>
+       Tell us about your HighLevel account. We’ll reply the same working day and help you connect DocuSign, map your fields, and get started.
+      </p>
+      <ul class="trial-details">
+       <li>
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="m5 12 4 4L19 6">
+         </path>
+        </svg>
+        No card needed to start
+       </li>
+       <li>
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="m5 12 4 4L19 6">
+         </path>
+        </svg>
+        Use your own DocuSign account
+       </li>
+       <li>
+        <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+         <path d="m5 12 4 4L19 6">
+         </path>
+        </svg>
+        Assisted setup for your real workflow
+       </li>
+      </ul>
+      <a class="text-link" href="/docusign-integration/book-a-call">
+       Prefer to talk first? Book an optional call
+       <svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+        <path d="M4 12h16m-6-6 6 6-6 6">
+        </path>
+       </svg>
+      </a>
+     </div>
+     <div class="trial-panel">
+      <h3>
+       Request your trial setup
+      </h3>
+      <p>
+       Complete the form to start the setup conversation.
+      </p>
+      <div class="trial-widget" id="trial-widget">
+       <div class="trial-placeholder" id="trial-placeholder" role="status">
+        Loading the trial request form…
+       </div>
+       <noscript>
+        <iframe data-activation-type="alwaysActivated" data-deactivation-type="neverDeactivate" data-form-id="iUnmDsvilWzcsbWQ35I9" data-form-name="Start free trial" data-layout="{'id':'INLINE'}" data-layout-iframe-id="inline-iUnmDsvilWzcsbWQ35I9" data-trigger-type="alwaysShow" id="inline-iUnmDsvilWzcsbWQ35I9" scrolling="no" src="https://api.leadconnectorhq.com/widget/form/iUnmDsvilWzcsbWQ35I9" style="width:100%;border:none;min-height:880px;overflow:hidden;border-radius:10px;background:var(--lcb-soft)" title="Start your 14-day free trial">
+        </iframe>
+       </noscript>
+      </div>
+      <template id="trial-template">
+       <iframe data-activation-type="alwaysActivated" data-deactivation-type="neverDeactivate" data-form-id="iUnmDsvilWzcsbWQ35I9" data-form-name="Start free trial" data-layout="{'id':'INLINE'}" data-layout-iframe-id="inline-iUnmDsvilWzcsbWQ35I9" data-trigger-type="alwaysShow" id="inline-iUnmDsvilWzcsbWQ35I9" scrolling="no" src="https://api.leadconnectorhq.com/widget/form/iUnmDsvilWzcsbWQ35I9" style="width:100%;border:none;min-height:880px;overflow:hidden;border-radius:10px;background:var(--lcb-soft)" title="Start your 14-day free trial">
+       </iframe>
+      </template>
+      <p class="direct">
+       Form not loading?
+       <a href="https://api.leadconnectorhq.com/widget/form/iUnmDsvilWzcsbWQ35I9" rel="noopener" target="_blank">
+        Open the trial form in a new tab
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+   </section>
+   <section aria-label="Video transcript" class="transcript section" id="transcript">
+    <div class="wrap">
+     <details>
+      <summary>
+       Read the 80-second product demo transcript
+      </summary>
+      <p>
+       You’re ready to send an agreement. First, you’re switching tabs to copy client details from HighLevel into DocuSign. You send it, but hear nothing back. Unopened? Opened but unsigned? Declined? Checking and following up are still on you. Your client fills in their details. But those answers stay in DocuSign. Now you’re copying them back into HighLevel. Sound familiar? Meet the DocuSign Integration by LCBridge, built for HighLevel. Send documents from HighLevel, prefilled with your CRM data. Client-entered names, emails, and other details automatically sync back to your mapped HighLevel contact fields. Send agreements automatically when deals reach the right pipeline stage. Activate prebuilt workflows to follow up on stalled agreements and move deals forward when signing is complete. Track agreement activity right on the contact record. The signed document is saved there, too. Start your 14-day free trial today.
+      </p>
+     </details>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="wrap">
+    <div class="footer-grid">
+     <div class="footer-brand">
+      <a aria-label="LCBridge home" href="/">
+       <img alt="LCBridge" class="footer-logo" height="53" loading="lazy" src="/assets/lcbridge-lockup-white.svg" width="157"/>
+      </a>
+      <p>
+       Integrations that connect the tools you use to HighLevel.
+      </p>
+     </div>
+     <div class="footer-links">
+      <div>
+       <strong>
+        DocuSign integration
+       </strong>
+       <a href="#how-it-works">
+        How it works
+       </a>
+       <a href="#pricing">
+        Pricing
+       </a>
+       <a href="/docusign-integration/insurance">
+        For insurance teams
+       </a>
+       <a href="/docusign-integration/real-estate">
+        For real estate teams
+       </a>
+      </div>
+      <div>
+       <strong>
+        Learn and connect
+       </strong>
+       <a href="/docusign-integration/docs/">
+        Documentation
+       </a>
+       <a href="/docusign-integration/docs/getting-started/">
+        Getting started
+       </a>
+       <a href="/docusign-integration/book-a-call">
+        Book a call
+       </a>
+       <a href="mailto:arun@lcbridge.app">
+        arun@lcbridge.app
+       </a>
+      </div>
+      <div>
+       <strong>
+        LCBridge
+       </strong>
+       <a href="/">
+        Home
+       </a>
+       <a href="/products/">
+        All products
+       </a>
+       <a href="/blog/">
+        Blog
+       </a>
+      </div>
+     </div>
+    </div>
+    <p class="legal">
+     LCBridge is a product of GoCSM Innovations Private Limited. LCBridge is an independent integration provider. DocuSign and HighLevel are trademarks of their respective owners. Your existing DocuSign and HighLevel accounts are required.
+    </p>
+    <div class="legal-links">
+     <a href="/docusign-integration/privacy">
+      Privacy
+     </a>
+     <a href="/docusign-integration/terms">
+      Terms
+     </a>
+     <a href="/docusign-integration/refund">
+      Refund policy
+     </a>
+    </div>
+    <p class="copyright">
+     © 2026 LCBridge. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>

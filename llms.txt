@@ -1,0 +1,52 @@
+# LC Bridge (Lead Connector Bridge)
+
+> LC Bridge builds white-label integrations that run inside the HighLevel (GoHighLevel) CRM — connecting tools like DocuSign and Google Sheets directly to LeadConnector workflows.
+
+LC Bridge, legally Lead Connector Bridge, is an integration vendor for the HighLevel / GoHighLevel CRM ecosystem (also searched as "LeadConnector"). Products are white-label add-ons that agencies and businesses install into their HighLevel sub-accounts. Built by a team that helped build HighLevel's API and App Marketplace.
+
+## Products
+
+- [DocuSign Integration for HighLevel](https://lcbridge.app/docusign-integration/): Send, track, and sync DocuSign e-signature envelopes from inside HighLevel/LeadConnector workflows. Auto-fills documents from contact fields; signed status triggers workflows. White-label, no code.
+- [Google Sheets Integration for HighLevel](https://lcbridge.app/google-sheets-integration/): Two-way real-time sync between HighLevel contacts/records and Google Sheets. Launching soon; early access open.
+- [Community Agents](https://lcbridge.app/community-agents/): AI agents that help answer member questions, keep conversations going, and surface evidence-backed buying interest. Released and available now. Connect a supported community portal and manage agent identities in the standalone app.
+
+## Community Agents setup
+
+- [Community AI agent setup](https://lcbridge.app/community-agents/setup/): Connect a supported community portal, add a member identity, configure its role and knowledge, and test before enabling replies.
+- [Community portal connection](https://lcbridge.app/community-agents/portal-connection/): Find the member-facing portal address and verify an AI identity’s access before connecting it.
+
+## DocuSign integration — pricing and contact
+
+- [Pricing](https://lcbridge.app/docusign-integration/pricing): Three plans priced per HighLevel sub-account, monthly or annual, with a 14-day trial.
+- [Book a call](https://lcbridge.app/book-a-call/): Book a 30-minute call with Arun, founder of LC Bridge — about any of the integrations.
+- [Book a call](https://lcbridge.app/docusign-integration/book-a-call): Book a 30-minute call with the founder about your HighLevel setup.
+- [Documentation](https://lcbridge.app/docusign-integration/docs/): Setup, triggers, field mapping, and how the white-label layer works.
+- [Getting started guide](https://lcbridge.app/docusign-integration/docs/getting-started/): Six-minute video walkthrough plus written steps — connect DocuSign, map a template, send an agreement, track it to signature.
+- [Multiple signers guide](https://lcbridge.app/docusign-integration/docs/multiple-signers/): Assign each signer role to a HighLevel contact, map document fields across contacts, preview values, and write completed values back.
+
+## Industry guides
+
+- [DocuSign for Insurance](https://lcbridge.app/docusign-integration/insurance): E-signature workflows for insurance agencies running on HighLevel (applications, ACORD-style forms).
+- [DocuSign for Real Estate](https://lcbridge.app/docusign-integration/real-estate): E-signature workflows for real estate teams running on HighLevel (listing and buyer agreements).
+
+## How-to & comparisons
+
+- [How to Integrate DocuSign with HighLevel](https://lcbridge.app/docusign-integration/how-to-integrate): The three ways to connect DocuSign to HighLevel/GoHighLevel — native integration app (recommended), Zapier, or manual — compared side by side, with five setup steps and an FAQ covering cost, Zapier limits, white-label compatibility, and legality.
+- [DocuSign vs HighLevel's Built-in E-signature](https://lcbridge.app/docusign-integration/vs-native-signature): When to use HighLevel's native signature vs DocuSign in a GoHighLevel sub-account — compared across cost, audit trail, templates, live tracking, reminders, and workflow triggers.
+
+## Guides
+
+- [Why your clients still pay for DocuSign](https://lcbridge.app/blog/why-clients-keep-docusign/): For HighLevel agency owners who shipped native Documents & Contracts. Five reasons clients in real estate, insurance and financial services keep DocuSign: the choice belongs to their brokerage or compliance officer, the document leaves the platform, ESIGN 7001(c) consumer disclosure, proving who signed (Ruiz, Espejo, Jones v. Solgen), and years of archives. Sourced, with a disclaimer.
+- [Is a GoHighLevel e-signature legally binding?](https://lcbridge.app/blog/gohighlevel-esignature-legally-binding/): What ESIGN and UETA actually require, the difference between a binding signature and a defensible one (Ruiz v. Moss Bros. vs Espejo), what HighLevel's native signature certificate does and does not capture, and the three situations where a dedicated e-signature platform is genuinely warranted.
+- [GoHighLevel Integrations: The Complete Guide](https://lcbridge.app/blog/gohighlevel-integrations/): What GoHighLevel integrations are, native vs Zapier, and the full LC Bridge integration directory for the HighLevel CRM.
+- [The 4 Levels of CRM Integration](https://lcbridge.app/blog/four-levels-of-integration/): A See–Know–Do framework for telling a deep, native integration from a Zapier bolt-on. Covers native integration vs Zapier and integration depth.
+- [An AI Agent Can't Chase a Signature It Can't See](https://lcbridge.app/blog/ai-agents-need-deep-integrations/): Why AI-agent readiness (agentic CRM, GoHighLevel AI agent) depends on how deep your CRM integrations go.
+
+## About
+
+- [Homepage](https://lcbridge.app/): Company overview, product lineup, and contact.
+- Contact: arun@lcbridge.app
+
+## Optional
+
+- [Sitemap](https://lcbridge.app/sitemap.xml): Full list of indexable URLs.
