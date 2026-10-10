@@ -4,10 +4,10 @@ Marketing site for **LC Bridge** (legal entity: GoCSM Innovations Private Limite
 trading as LCBridge). Sells white-labeled integrations that HighLevel / LeadConnector
 agencies embed as their own.
 
-Repo: `https://github.com/urbangabbar/docusign-static`  (the GitHub slug still says docusign-static)
-Local checkout: `~/dev/Personal/lcbridge-website`  (renamed 2026-09-10 — the slug and the folder no longer match)
+Repo: `https://github.com/urbangabbar/leadconnectorbridge` (production source since 10 October 2026)
+Local checkout: `/Users/abigocsm/Documents/github/leadconnectorbridge`
 Live: `https://lcbridge.app`
-Last verified: 11 September 2026.
+Deployment configuration verified: 10 October 2026. Other historical sections below may need refreshing as features change.
 
 ---
 
@@ -199,21 +199,21 @@ Rules when you touch these:
 | Preview URL | **none.** There is no staging. `main` is production. |
 | Build time | ~30–60 s after push |
 
-### Pushing requires a GitHub account switch
+### Pushing as urbangabbar
 
-`git push` uses `gh` as its credential helper, so the **active `gh` account** is what
-authenticates — not `user.name`/`user.email`, which are already correct
-(`karthik-sheetstack` / `karthik@sheetstack.ai`) and will mislead you.
-
-Two accounts are in the keyring. `sunny-gocsm` is usually active and **has no write
-access** — it fails with `403 Permission to urbangabbar/docusign-static.git denied
-to sunny-gocsm`. Only `karthik-sheetstack` can push.
+Origin is `git@github.com:urbangabbar/leadconnectorbridge.git`. This checkout uses
+a repo-local SSH command selecting `~/.ssh/id_ed25519_personal`, which authenticates
+as `urbangabbar`. The default SSH key and active `gh` CLI session authenticate as
+`abi783`; do not rely on them for write or admin access to this repository.
+Git author identity is Abhinav Paliwal <abhinavpaliwal271@gmail.com>.
 
 ```bash
-gh auth switch --user karthik-sheetstack
 git push origin main
-gh auth switch --user sunny-gocsm     # restore what the owner had active
 ```
+
+GitHub Pages serves `main` at the root with `lcbridge.app` and HTTPS enforced.
+The domain assignment was moved from `docusign-static` to this repository. Future
+website changes belong here; pushing the old repository no longer updates the domain.
 
 ### Verifying a deploy
 
