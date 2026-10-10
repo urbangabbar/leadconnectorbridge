@@ -32,4 +32,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://lcbridge.app/sitemap.xml
+Sitemap: https://leadconnectorbridge.com/sitemap.xml

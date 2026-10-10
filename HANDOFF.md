@@ -4,9 +4,9 @@ Marketing site for **LC Bridge** (legal entity: GoCSM Innovations Private Limite
 trading as LCBridge). Sells white-labeled integrations that HighLevel / LeadConnector
 agencies embed as their own.
 
-Repo: `https://github.com/urbangabbar/leadconnectorbridge` (production source since 10 October 2026)
+Repo: `https://github.com/urbangabbar/leadconnectorbridge` (white-label site source since 10 October 2026)
 Local checkout: `/Users/abigocsm/Documents/github/leadconnectorbridge`
-Live: `https://lcbridge.app`
+Live: `https://leadconnectorbridge.com`
 Deployment configuration verified: 10 October 2026. Other historical sections below may need refreshing as features change.
 
 ---
@@ -194,7 +194,7 @@ Rules when you touch these:
 | Host | GitHub Pages |
 | Source | branch `main`, path `/` |
 | Build | `legacy` (Jekyll), `_config.yml` is exclude-only, no `.nojekyll` |
-| Custom domain | `lcbridge.app` via `CNAME`, HTTPS enforced |
+| Custom domain | `leadconnectorbridge.com` via `CNAME`, HTTPS enforced |
 | Auto-deploy | **yes — push to `main` publishes** |
 | Preview URL | **none.** There is no staging. `main` is production. |
 | Build time | ~30–60 s after push |
@@ -211,9 +211,12 @@ Git author identity is Abhinav Paliwal <abhinavpaliwal271@gmail.com>.
 git push origin main
 ```
 
-GitHub Pages serves `main` at the root with `lcbridge.app` and HTTPS enforced.
-The domain assignment was moved from `docusign-static` to this repository. Future
-website changes belong here; pushing the old repository no longer updates the domain.
+GitHub Pages serves the white-label site from `main` at the root with
+`leadconnectorbridge.com`. The original `lcbridge.app` site stays in `docusign-static`.
+The apex IPv4/IPv6 and www DNS were pointed from Hostinger to GitHub Pages on
+10 October 2026; HTTPS certificate provisioning must finish before enforcing HTTPS.
+This site reuses the prepared LC Bridge Connector homepage and LeadConnector naming.
+Community Agents install links still use the existing app OAuth endpoint.
 
 ### Verifying a deploy
 
@@ -222,7 +225,7 @@ Poll production; don't assume. Pages serves the old build for up to a minute.
 ```bash
 # example: confirm a new page is live
 for i in $(seq 1 20); do
-  c=$(curl -s -o /dev/null -w '%{http_code}' https://lcbridge.app/community-agents/)
+  c=$(curl -s -o /dev/null -w '%{http_code}' https://leadconnectorbridge.com/community-agents/)
   echo "try $i: $c"; [ "$c" = "200" ] && break; sleep 15
 done
 ```
