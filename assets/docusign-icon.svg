@@ -1,6 +1,6 @@
 <!-- DocuSign integration icon — the document + signature glyph that marks
-     the DocuSign CTA inside the product ("DocuSign Integration by LCBridge").
-     This is NOT the LC Bridge brand logo — that is lcbridge-logo.svg (the
+     the DocuSign CTA inside the product ("DocuSign Integration by LeadConnector Bridge").
+     This is NOT the LeadConnector Bridge brand logo — that is lcbridge-logo.svg (the
      bridge mark). Drawing kept as-is; do not redraw the glyph. -->
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="180" height="180" role="img" aria-label="DocuSign integration">
   <defs>
